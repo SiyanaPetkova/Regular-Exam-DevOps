@@ -13,4 +13,4 @@ suite('Home page', function() {
     let body = await res.text();
     assert.ok(body.includes("Cookbook: <b>3</b>"));
   });
-});
+});  
